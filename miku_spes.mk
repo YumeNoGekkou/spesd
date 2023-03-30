@@ -24,6 +24,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Maintaier
+MIKU_MASTER := fukiame
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Overlay
