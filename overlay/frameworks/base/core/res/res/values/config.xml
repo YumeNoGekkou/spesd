@@ -790,7 +790,7 @@
     <integer name="config_defaultRefreshRateInZone">90</integer>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps" translatable="false" >true</bool>
+    <bool name="config_is_powerbutton_fps" translatable="true" >true</bool>
 
     <!-- List of comma separated package names for which we the system will not show crash like
          tts, etc. dialogs. -->
