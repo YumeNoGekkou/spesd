@@ -173,6 +173,15 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 USE_DEX2OAT_DEBUG := false
 
+# Strip the local variable table and the local variable type table to reduce
+# the size of the system image. This has no bearing on stack traces, but will
+# leave less information available via JDWP.
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
+# Always preopt extracted APKs to prevent extracting out of the APK for gms
+# modules.
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
