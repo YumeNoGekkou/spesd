@@ -31,6 +31,11 @@ persist.vendor.cne.feature=1
 debug.force_no_blanking=true
 persist.demo.hdmirotationlock=false
 
+# Adaptive Suspend
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
+
 # FP
 ro.hardware.fp.sideCap=true
 
