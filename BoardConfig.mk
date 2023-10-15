@@ -169,9 +169,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
